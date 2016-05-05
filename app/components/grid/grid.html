@@ -1,0 +1,6 @@
+<div class="grid">
+    hello from grid html
+    <div class="row" ng-repeat='row in vm.grid'>
+        <div class="cell" ng-click='vm.cellClick(cell, vm.grid)' ng-class="{'active': cell.active}" ng-repeat='cell in row'></div>
+    </div>
+</div>
